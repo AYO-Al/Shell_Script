@@ -29,3 +29,4 @@ for host in $HOST_LIST;do
 	sshpass -p$ROOT_PASS ssh -o StrictHostKeyChecking=no root@$host "chmod 600 /home/$USER_NAME/.ssh/authorized_keys"
 	sshpass -p$ROOT_PASS ssh -o StrictHostKeyChecking=no root@$host "chown -R $USER_NAME:$USERNAME /home/$USER_NAME/.ssh"
 done
+ 
