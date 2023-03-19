@@ -1,4 +1,4 @@
-#/bin/bash
+#!/bin/bash
 
 # 命令报错退出脚本
 set -e
