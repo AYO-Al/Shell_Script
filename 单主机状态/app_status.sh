@@ -144,4 +144,4 @@ fi
 if [ ! -e $HOME_DIR/$FILE_NAME ];then
         echo "$FILE_NAME is not exit..Please Check.."
 	exit 1
-fi
+fi 
