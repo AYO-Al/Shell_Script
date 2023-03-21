@@ -48,7 +48,7 @@ function remotr_transfer
     if [ ! -e $SRC_FILE ];then
         echo "ERROR - $SRC_FILE is not exist,Please check..."
         exit 1
-    fi
+    fi 
 
     # 判断第二个参数是否存在
     for host in $HOST_LIST;do
